@@ -99,10 +99,10 @@ class HorseRaces:
         for race, time in horse_information.items():
             if time < fastest_time:
                 fastest_time = time
-                fastest_race = race
-        return (fastest_race, fastest_time)
-        
-        # pass
+                fastest_race = race 
+        return (fastest_race, fastest_time) 
+
+        pass
 
 ###############################################################################
 ##### TASK 3
